@@ -9,7 +9,7 @@ use std::io::{BufRead, BufReader, ErrorKind, Write};
 fn main() {}
 
 fn birthday() {
-    let age: u32 = 8;
+    let age: u32 = 6;
     let voting_age: u32 = 18;
     match age.cmp(&voting_age) {
         Ordering::Less => println!("Too young to vote"),
